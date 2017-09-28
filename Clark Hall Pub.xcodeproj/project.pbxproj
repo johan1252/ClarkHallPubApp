@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F91F96E218E66D8F00C9ADD0 /* Screen Shot 2014-02-05 at 12.32.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = F91F96E118E66D8F00C9ADD0 /* Screen Shot 2014-02-05 at 12.32.12 PM.png */; };
+		F91F96E418E66E1000C9ADD0 /* clark logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91F96E318E66E1000C9ADD0 /* clark logo.jpg */; };
+		F91F96EB18E6761500C9ADD0 /* Untitled-8.png in Resources */ = {isa = PBXBuildFile; fileRef = F91F96EA18E6761500C9ADD0 /* Untitled-8.png */; };
+		F91F96ED18E677BD00C9ADD0 /* about us.png in Resources */ = {isa = PBXBuildFile; fileRef = F91F96EC18E677BD00C9ADD0 /* about us.png */; };
+		F91F96EF18E67C5D00C9ADD0 /* checkinbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F91F96EE18E67C5D00C9ADD0 /* checkinbutton.png */; };
+		F91F96F118E67CF600C9ADD0 /* accountbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F91F96F018E67CF600C9ADD0 /* accountbutton.png */; };
+		F91F96F318E67D3E00C9ADD0 /* Eventsbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F91F96F218E67D3E00C9ADD0 /* Eventsbutton.png */; };
+		F94152F218FCAE2E00F448A9 /* clark hall pub ritual .png in Resources */ = {isa = PBXBuildFile; fileRef = F94152F118FCAE2E00F448A9 /* clark hall pub ritual .png */; };
+		F97FFF9818E6684F00E22161 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = F97FFF9718E6684F00E22161 /* View2.m */; };
+		F98048B818E718A80012C757 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98048B718E718A80012C757 /* Accounts.framework */; };
+		F98048BA18E718B50012C757 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98048B918E718B50012C757 /* Social.framework */; };
+		F980496A18E725D70012C757 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F980496918E725D70012C757 /* Twitter.framework */; };
+		F9D7E62A18E74DBD0017A153 /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E60E18E74DBD0017A153 /* NSDateFormatter+STTwitter.m */; };
+		F9D7E62B18E74DBD0017A153 /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E60E18E74DBD0017A153 /* NSDateFormatter+STTwitter.m */; };
+		F9D7E62C18E74DBD0017A153 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61018E74DBD0017A153 /* NSError+STTwitter.m */; };
+		F9D7E62D18E74DBD0017A153 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61018E74DBD0017A153 /* NSError+STTwitter.m */; };
+		F9D7E62E18E74DBD0017A153 /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61218E74DBD0017A153 /* NSString+STTwitter.m */; };
+		F9D7E62F18E74DBD0017A153 /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61218E74DBD0017A153 /* NSString+STTwitter.m */; };
+		F9D7E63018E74DBD0017A153 /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61418E74DBD0017A153 /* STHTTPRequest+STTwitter.m */; };
+		F9D7E63118E74DBD0017A153 /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61418E74DBD0017A153 /* STHTTPRequest+STTwitter.m */; };
+		F9D7E63218E74DBD0017A153 /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61718E74DBD0017A153 /* STTwitterAPI.m */; };
+		F9D7E63318E74DBD0017A153 /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61718E74DBD0017A153 /* STTwitterAPI.m */; };
+		F9D7E63418E74DBD0017A153 /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61918E74DBD0017A153 /* STTwitterAppOnly.m */; };
+		F9D7E63518E74DBD0017A153 /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61918E74DBD0017A153 /* STTwitterAppOnly.m */; };
+		F9D7E63618E74DBD0017A153 /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61B18E74DBD0017A153 /* STTwitterHTML.m */; };
+		F9D7E63718E74DBD0017A153 /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61B18E74DBD0017A153 /* STTwitterHTML.m */; };
+		F9D7E63818E74DBD0017A153 /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61D18E74DBD0017A153 /* STTwitterOAuth.m */; };
+		F9D7E63918E74DBD0017A153 /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61D18E74DBD0017A153 /* STTwitterOAuth.m */; };
+		F9D7E63A18E74DBD0017A153 /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61F18E74DBD0017A153 /* STTwitterOS.m */; };
+		F9D7E63B18E74DBD0017A153 /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E61F18E74DBD0017A153 /* STTwitterOS.m */; };
+		F9D7E63C18E74DBD0017A153 /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62118E74DBD0017A153 /* STTwitterOSRequest.m */; };
+		F9D7E63D18E74DBD0017A153 /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62118E74DBD0017A153 /* STTwitterOSRequest.m */; };
+		F9D7E63E18E74DBD0017A153 /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62518E74DBD0017A153 /* BAVPlistNode.m */; };
+		F9D7E63F18E74DBD0017A153 /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62518E74DBD0017A153 /* BAVPlistNode.m */; };
+		F9D7E64018E74DBD0017A153 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62718E74DBD0017A153 /* JSONSyntaxHighlight.m */; };
+		F9D7E64118E74DBD0017A153 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62718E74DBD0017A153 /* JSONSyntaxHighlight.m */; };
+		F9D7E64218E74DBD0017A153 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62918E74DBD0017A153 /* STHTTPRequest.m */; };
+		F9D7E64318E74DBD0017A153 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E62918E74DBD0017A153 /* STHTTPRequest.m */; };
+		F9D7E64518E74FBC0017A153 /* news from clark.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D7E64418E74FBC0017A153 /* news from clark.png */; };
+		F9D7E64818E76A280017A153 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E64718E76A280017A153 /* StartView.m */; };
+		F9E284BB18E65E9E0029AA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E284BA18E65E9E0029AA64 /* Foundation.framework */; };
+		F9E284BD18E65E9E0029AA64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E284BC18E65E9E0029AA64 /* CoreGraphics.framework */; };
+		F9E284BF18E65E9E0029AA64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E284BE18E65E9E0029AA64 /* UIKit.framework */; };
+		F9E284C518E65E9E0029AA64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E284C318E65E9E0029AA64 /* InfoPlist.strings */; };
+		F9E284C718E65E9E0029AA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E284C618E65E9E0029AA64 /* main.m */; };
+		F9E284CB18E65E9F0029AA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E284CA18E65E9F0029AA64 /* AppDelegate.m */; };
+		F9E284CE18E65E9F0029AA64 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E284CC18E65E9F0029AA64 /* Main_iPhone.storyboard */; };
+		F9E284D118E65E9F0029AA64 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E284CF18E65E9F0029AA64 /* Main_iPad.storyboard */; };
+		F9E284D418E65E9F0029AA64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E284D318E65E9F0029AA64 /* ViewController.m */; };
+		F9E284D618E65E9F0029AA64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E284D518E65E9F0029AA64 /* Images.xcassets */; };
+		F9E284DD18E65E9F0029AA64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E284DC18E65E9F0029AA64 /* XCTest.framework */; };
+		F9E284DE18E65E9F0029AA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E284BA18E65E9E0029AA64 /* Foundation.framework */; };
+		F9E284DF18E65E9F0029AA64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E284BE18E65E9E0029AA64 /* UIKit.framework */; };
+		F9E284E718E65E9F0029AA64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E284E518E65E9F0029AA64 /* InfoPlist.strings */; };
+		F9E284E918E65E9F0029AA64 /* AppliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E284E818E65E9F0029AA64 /* AppliTests.m */; };
+		F9E284F518E65FA80029AA64 /* Start up screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E284F418E65FA80029AA64 /* Start up screen.jpg */; };
+		F9F05E0818E66AC8008149D2 /* Accountview.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F05E0718E66AC8008149D2 /* Accountview.m */; };
+		F9F05E0B18E66B58008149D2 /* Eventsview.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F05E0A18E66B58008149D2 /* Eventsview.m */; };
+		F9F05E0E18E66B6C008149D2 /* ContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F05E0D18E66B6C008149D2 /* ContactView.m */; };
+		F9F05E1118E66B81008149D2 /* Aboutusview.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F05E1018E66B81008149D2 /* Aboutusview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E284E018E65E9F0029AA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E284AF18E65E9E0029AA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E284B618E65E9E0029AA64;
+			remoteInfo = Appli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F91F96E118E66D8F00C9ADD0 /* Screen Shot 2014-02-05 at 12.32.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2014-02-05 at 12.32.12 PM.png"; path = "../../../../../Desktop/Screen Shot 2014-02-05 at 12.32.12 PM.png"; sourceTree = "<group>"; };
+		F91F96E318E66E1000C9ADD0 /* clark logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "clark logo.jpg"; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/clark logo.jpg"; sourceTree = "<group>"; };
+		F91F96EA18E6761500C9ADD0 /* Untitled-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-8.png"; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/Untitled-8.png"; sourceTree = "<group>"; };
+		F91F96EC18E677BD00C9ADD0 /* about us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "about us.png"; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/about us.png"; sourceTree = "<group>"; };
+		F91F96EE18E67C5D00C9ADD0 /* checkinbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkinbutton.png; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/checkinbutton.png"; sourceTree = "<group>"; };
+		F91F96F018E67CF600C9ADD0 /* accountbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accountbutton.png; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/accountbutton.png"; sourceTree = "<group>"; };
+		F91F96F218E67D3E00C9ADD0 /* Eventsbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Eventsbutton.png; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/Eventsbutton.png"; sourceTree = "<group>"; };
+		F94152F118FCAE2E00F448A9 /* clark hall pub ritual .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clark hall pub ritual .png"; sourceTree = "<group>"; };
+		F97FFF9618E6684F00E22161 /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = View2.h; path = ../View2.h; sourceTree = "<group>"; };
+		F97FFF9718E6684F00E22161 /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = View2.m; path = ../View2.m; sourceTree = "<group>"; };
+		F98048B718E718A80012C757 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F98048B918E718B50012C757 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F980496918E725D70012C757 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		F9D7E60D18E74DBD0017A153 /* NSDateFormatter+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+STTwitter.h"; sourceTree = "<group>"; };
+		F9D7E60E18E74DBD0017A153 /* NSDateFormatter+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+STTwitter.m"; sourceTree = "<group>"; };
+		F9D7E60F18E74DBD0017A153 /* NSError+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+STTwitter.h"; sourceTree = "<group>"; };
+		F9D7E61018E74DBD0017A153 /* NSError+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+STTwitter.m"; sourceTree = "<group>"; };
+		F9D7E61118E74DBD0017A153 /* NSString+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STTwitter.h"; sourceTree = "<group>"; };
+		F9D7E61218E74DBD0017A153 /* NSString+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STTwitter.m"; sourceTree = "<group>"; };
+		F9D7E61318E74DBD0017A153 /* STHTTPRequest+STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STHTTPRequest+STTwitter.h"; sourceTree = "<group>"; };
+		F9D7E61418E74DBD0017A153 /* STHTTPRequest+STTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STHTTPRequest+STTwitter.m"; sourceTree = "<group>"; };
+		F9D7E61518E74DBD0017A153 /* STTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitter.h; sourceTree = "<group>"; };
+		F9D7E61618E74DBD0017A153 /* STTwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAPI.h; sourceTree = "<group>"; };
+		F9D7E61718E74DBD0017A153 /* STTwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAPI.m; sourceTree = "<group>"; };
+		F9D7E61818E74DBD0017A153 /* STTwitterAppOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterAppOnly.h; sourceTree = "<group>"; };
+		F9D7E61918E74DBD0017A153 /* STTwitterAppOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterAppOnly.m; sourceTree = "<group>"; };
+		F9D7E61A18E74DBD0017A153 /* STTwitterHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterHTML.h; sourceTree = "<group>"; };
+		F9D7E61B18E74DBD0017A153 /* STTwitterHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterHTML.m; sourceTree = "<group>"; };
+		F9D7E61C18E74DBD0017A153 /* STTwitterOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOAuth.h; sourceTree = "<group>"; };
+		F9D7E61D18E74DBD0017A153 /* STTwitterOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOAuth.m; sourceTree = "<group>"; };
+		F9D7E61E18E74DBD0017A153 /* STTwitterOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOS.h; sourceTree = "<group>"; };
+		F9D7E61F18E74DBD0017A153 /* STTwitterOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOS.m; sourceTree = "<group>"; };
+		F9D7E62018E74DBD0017A153 /* STTwitterOSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterOSRequest.h; sourceTree = "<group>"; };
+		F9D7E62118E74DBD0017A153 /* STTwitterOSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTwitterOSRequest.m; sourceTree = "<group>"; };
+		F9D7E62218E74DBD0017A153 /* STTwitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTwitterProtocol.h; sourceTree = "<group>"; };
+		F9D7E62418E74DBD0017A153 /* BAVPlistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAVPlistNode.h; sourceTree = "<group>"; };
+		F9D7E62518E74DBD0017A153 /* BAVPlistNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAVPlistNode.m; sourceTree = "<group>"; };
+		F9D7E62618E74DBD0017A153 /* JSONSyntaxHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSyntaxHighlight.h; sourceTree = "<group>"; };
+		F9D7E62718E74DBD0017A153 /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONSyntaxHighlight.m; sourceTree = "<group>"; };
+		F9D7E62818E74DBD0017A153 /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
+		F9D7E62918E74DBD0017A153 /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		F9D7E64418E74FBC0017A153 /* news from clark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news from clark.png"; sourceTree = "<group>"; };
+		F9D7E64618E76A280017A153 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartView.h; path = ../StartView.h; sourceTree = "<group>"; };
+		F9D7E64718E76A280017A153 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartView.m; path = ../StartView.m; sourceTree = "<group>"; };
+		F9E284B718E65E9E0029AA64 /* Clark Hall Pub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clark Hall Pub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E284BA18E65E9E0029AA64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9E284BC18E65E9E0029AA64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9E284BE18E65E9E0029AA64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9E284C218E65E9E0029AA64 /* Clark Hall Pub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clark Hall Pub-Info.plist"; sourceTree = "<group>"; };
+		F9E284C418E65E9E0029AA64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9E284C618E65E9E0029AA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9E284C818E65E9E0029AA64 /* Clark Hall Pub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clark Hall Pub-Prefix.pch"; sourceTree = "<group>"; };
+		F9E284C918E65E9F0029AA64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9E284CA18E65E9F0029AA64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9E284CD18E65E9F0029AA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F9E284D018E65E9F0029AA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F9E284D218E65E9F0029AA64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9E284D318E65E9F0029AA64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9E284D518E65E9F0029AA64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9E284DB18E65E9F0029AA64 /* Clark Hall PubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clark Hall PubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E284DC18E65E9F0029AA64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9E284E418E65E9F0029AA64 /* Clark Hall PubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clark Hall PubTests-Info.plist"; sourceTree = "<group>"; };
+		F9E284E618E65E9F0029AA64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9E284E818E65E9F0029AA64 /* AppliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppliTests.m; sourceTree = "<group>"; };
+		F9E284F418E65FA80029AA64 /* Start up screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Start up screen.jpg"; path = "../../../../APSC100-MOD3/Clark Hall Pub Designs/Start up screen.jpg"; sourceTree = "<group>"; };
+		F9F05E0618E66AC8008149D2 /* Accountview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Accountview.h; path = ../Accountview.h; sourceTree = "<group>"; };
+		F9F05E0718E66AC8008149D2 /* Accountview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Accountview.m; path = ../Accountview.m; sourceTree = "<group>"; };
+		F9F05E0918E66B58008149D2 /* Eventsview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Eventsview.h; path = ../Eventsview.h; sourceTree = "<group>"; };
+		F9F05E0A18E66B58008149D2 /* Eventsview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Eventsview.m; path = ../Eventsview.m; sourceTree = "<group>"; };
+		F9F05E0C18E66B6C008149D2 /* ContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactView.h; path = ../ContactView.h; sourceTree = "<group>"; };
+		F9F05E0D18E66B6C008149D2 /* ContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactView.m; path = ../ContactView.m; sourceTree = "<group>"; };
+		F9F05E0F18E66B81008149D2 /* Aboutusview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aboutusview.h; path = ../Aboutusview.h; sourceTree = "<group>"; };
+		F9F05E1018E66B81008149D2 /* Aboutusview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aboutusview.m; path = ../Aboutusview.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E284B418E65E9E0029AA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F980496A18E725D70012C757 /* Twitter.framework in Frameworks */,
+				F98048B818E718A80012C757 /* Accounts.framework in Frameworks */,
+				F98048BA18E718B50012C757 /* Social.framework in Frameworks */,
+				F9E284BD18E65E9E0029AA64 /* CoreGraphics.framework in Frameworks */,
+				F9E284BF18E65E9E0029AA64 /* UIKit.framework in Frameworks */,
+				F9E284BB18E65E9E0029AA64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E284D818E65E9F0029AA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E284DD18E65E9F0029AA64 /* XCTest.framework in Frameworks */,
+				F9E284DF18E65E9F0029AA64 /* UIKit.framework in Frameworks */,
+				F9E284DE18E65E9F0029AA64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9D7E60C18E74DBD0017A153 /* STTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				F9D7E60D18E74DBD0017A153 /* NSDateFormatter+STTwitter.h */,
+				F9D7E60E18E74DBD0017A153 /* NSDateFormatter+STTwitter.m */,
+				F9D7E60F18E74DBD0017A153 /* NSError+STTwitter.h */,
+				F9D7E61018E74DBD0017A153 /* NSError+STTwitter.m */,
+				F9D7E61118E74DBD0017A153 /* NSString+STTwitter.h */,
+				F9D7E61218E74DBD0017A153 /* NSString+STTwitter.m */,
+				F9D7E61318E74DBD0017A153 /* STHTTPRequest+STTwitter.h */,
+				F9D7E61418E74DBD0017A153 /* STHTTPRequest+STTwitter.m */,
+				F9D7E61518E74DBD0017A153 /* STTwitter.h */,
+				F9D7E61618E74DBD0017A153 /* STTwitterAPI.h */,
+				F9D7E61718E74DBD0017A153 /* STTwitterAPI.m */,
+				F9D7E61818E74DBD0017A153 /* STTwitterAppOnly.h */,
+				F9D7E61918E74DBD0017A153 /* STTwitterAppOnly.m */,
+				F9D7E61A18E74DBD0017A153 /* STTwitterHTML.h */,
+				F9D7E61B18E74DBD0017A153 /* STTwitterHTML.m */,
+				F9D7E61C18E74DBD0017A153 /* STTwitterOAuth.h */,
+				F9D7E61D18E74DBD0017A153 /* STTwitterOAuth.m */,
+				F9D7E61E18E74DBD0017A153 /* STTwitterOS.h */,
+				F9D7E61F18E74DBD0017A153 /* STTwitterOS.m */,
+				F9D7E62018E74DBD0017A153 /* STTwitterOSRequest.h */,
+				F9D7E62118E74DBD0017A153 /* STTwitterOSRequest.m */,
+				F9D7E62218E74DBD0017A153 /* STTwitterProtocol.h */,
+				F9D7E62318E74DBD0017A153 /* Vendor */,
+			);
+			path = STTwitter;
+			sourceTree = "<group>";
+		};
+		F9D7E62318E74DBD0017A153 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F9D7E62418E74DBD0017A153 /* BAVPlistNode.h */,
+				F9D7E62518E74DBD0017A153 /* BAVPlistNode.m */,
+				F9D7E62618E74DBD0017A153 /* JSONSyntaxHighlight.h */,
+				F9D7E62718E74DBD0017A153 /* JSONSyntaxHighlight.m */,
+				F9D7E62818E74DBD0017A153 /* STHTTPRequest.h */,
+				F9D7E62918E74DBD0017A153 /* STHTTPRequest.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F9E284AE18E65E9E0029AA64 = {
+			isa = PBXGroup;
+			children = (
+				F9E284C018E65E9E0029AA64 /* Appli */,
+				F9E284E218E65E9F0029AA64 /* AppliTests */,
+				F9E284B918E65E9E0029AA64 /* Frameworks */,
+				F9E284B818E65E9E0029AA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E284B818E65E9E0029AA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E284B718E65E9E0029AA64 /* Clark Hall Pub.app */,
+				F9E284DB18E65E9F0029AA64 /* Clark Hall PubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E284B918E65E9E0029AA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F980496918E725D70012C757 /* Twitter.framework */,
+				F98048B918E718B50012C757 /* Social.framework */,
+				F98048B718E718A80012C757 /* Accounts.framework */,
+				F9E284BA18E65E9E0029AA64 /* Foundation.framework */,
+				F9E284BC18E65E9E0029AA64 /* CoreGraphics.framework */,
+				F9E284BE18E65E9E0029AA64 /* UIKit.framework */,
+				F9E284DC18E65E9F0029AA64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E284C018E65E9E0029AA64 /* Appli */ = {
+			isa = PBXGroup;
+			children = (
+				F9E284C918E65E9F0029AA64 /* AppDelegate.h */,
+				F9E284CA18E65E9F0029AA64 /* AppDelegate.m */,
+				F9E284CC18E65E9F0029AA64 /* Main_iPhone.storyboard */,
+				F9E284CF18E65E9F0029AA64 /* Main_iPad.storyboard */,
+				F9E284D218E65E9F0029AA64 /* ViewController.h */,
+				F9E284D318E65E9F0029AA64 /* ViewController.m */,
+				F97FFF9618E6684F00E22161 /* View2.h */,
+				F97FFF9718E6684F00E22161 /* View2.m */,
+				F9F05E0618E66AC8008149D2 /* Accountview.h */,
+				F9F05E0718E66AC8008149D2 /* Accountview.m */,
+				F9F05E0918E66B58008149D2 /* Eventsview.h */,
+				F9F05E0A18E66B58008149D2 /* Eventsview.m */,
+				F9F05E0C18E66B6C008149D2 /* ContactView.h */,
+				F9F05E0D18E66B6C008149D2 /* ContactView.m */,
+				F9F05E0F18E66B81008149D2 /* Aboutusview.h */,
+				F9F05E1018E66B81008149D2 /* Aboutusview.m */,
+				F9D7E64618E76A280017A153 /* StartView.h */,
+				F9D7E64718E76A280017A153 /* StartView.m */,
+				F9E284F418E65FA80029AA64 /* Start up screen.jpg */,
+				F91F96E118E66D8F00C9ADD0 /* Screen Shot 2014-02-05 at 12.32.12 PM.png */,
+				F91F96E318E66E1000C9ADD0 /* clark logo.jpg */,
+				F91F96EA18E6761500C9ADD0 /* Untitled-8.png */,
+				F91F96EC18E677BD00C9ADD0 /* about us.png */,
+				F91F96EE18E67C5D00C9ADD0 /* checkinbutton.png */,
+				F91F96F018E67CF600C9ADD0 /* accountbutton.png */,
+				F91F96F218E67D3E00C9ADD0 /* Eventsbutton.png */,
+				F94152F118FCAE2E00F448A9 /* clark hall pub ritual .png */,
+				F9D7E64418E74FBC0017A153 /* news from clark.png */,
+				F9D7E60C18E74DBD0017A153 /* STTwitter */,
+				F9E284D518E65E9F0029AA64 /* Images.xcassets */,
+				F9E284C118E65E9E0029AA64 /* Supporting Files */,
+			);
+			path = Appli;
+			sourceTree = "<group>";
+		};
+		F9E284C118E65E9E0029AA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E284C218E65E9E0029AA64 /* Clark Hall Pub-Info.plist */,
+				F9E284C318E65E9E0029AA64 /* InfoPlist.strings */,
+				F9E284C618E65E9E0029AA64 /* main.m */,
+				F9E284C818E65E9E0029AA64 /* Clark Hall Pub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E284E218E65E9F0029AA64 /* AppliTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E284E818E65E9F0029AA64 /* AppliTests.m */,
+				F9E284E318E65E9F0029AA64 /* Supporting Files */,
+			);
+			path = AppliTests;
+			sourceTree = "<group>";
+		};
+		F9E284E318E65E9F0029AA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E284E418E65E9F0029AA64 /* Clark Hall PubTests-Info.plist */,
+				F9E284E518E65E9F0029AA64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E284B618E65E9E0029AA64 /* Clark Hall Pub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E284EC18E65E9F0029AA64 /* Build configuration list for PBXNativeTarget "Clark Hall Pub" */;
+			buildPhases = (
+				F9E284B318E65E9E0029AA64 /* Sources */,
+				F9E284B418E65E9E0029AA64 /* Frameworks */,
+				F9E284B518E65E9E0029AA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clark Hall Pub";
+			productName = Appli;
+			productReference = F9E284B718E65E9E0029AA64 /* Clark Hall Pub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E284DA18E65E9F0029AA64 /* Clark Hall PubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E284EF18E65E9F0029AA64 /* Build configuration list for PBXNativeTarget "Clark Hall PubTests" */;
+			buildPhases = (
+				F9E284D718E65E9F0029AA64 /* Sources */,
+				F9E284D818E65E9F0029AA64 /* Frameworks */,
+				F9E284D918E65E9F0029AA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E284E118E65E9F0029AA64 /* PBXTargetDependency */,
+			);
+			name = "Clark Hall PubTests";
+			productName = AppliTests;
+			productReference = F9E284DB18E65E9F0029AA64 /* Clark Hall PubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E284AF18E65E9E0029AA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Johan Cornelissen";
+				TargetAttributes = {
+					F9E284DA18E65E9F0029AA64 = {
+						TestTargetID = F9E284B618E65E9E0029AA64;
+					};
+				};
+			};
+			buildConfigurationList = F9E284B218E65E9E0029AA64 /* Build configuration list for PBXProject "Clark Hall Pub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				_en,
+			);
+			mainGroup = F9E284AE18E65E9E0029AA64;
+			productRefGroup = F9E284B818E65E9E0029AA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E284B618E65E9E0029AA64 /* Clark Hall Pub */,
+				F9E284DA18E65E9F0029AA64 /* Clark Hall PubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E284B518E65E9E0029AA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91F96F318E67D3E00C9ADD0 /* Eventsbutton.png in Resources */,
+				F9E284F518E65FA80029AA64 /* Start up screen.jpg in Resources */,
+				F91F96E418E66E1000C9ADD0 /* clark logo.jpg in Resources */,
+				F91F96E218E66D8F00C9ADD0 /* Screen Shot 2014-02-05 at 12.32.12 PM.png in Resources */,
+				F91F96F118E67CF600C9ADD0 /* accountbutton.png in Resources */,
+				F91F96EF18E67C5D00C9ADD0 /* checkinbutton.png in Resources */,
+				F9E284D118E65E9F0029AA64 /* Main_iPad.storyboard in Resources */,
+				F9E284D618E65E9F0029AA64 /* Images.xcassets in Resources */,
+				F9E284CE18E65E9F0029AA64 /* Main_iPhone.storyboard in Resources */,
+				F94152F218FCAE2E00F448A9 /* clark hall pub ritual .png in Resources */,
+				F9D7E64518E74FBC0017A153 /* news from clark.png in Resources */,
+				F91F96ED18E677BD00C9ADD0 /* about us.png in Resources */,
+				F9E284C518E65E9E0029AA64 /* InfoPlist.strings in Resources */,
+				F91F96EB18E6761500C9ADD0 /* Untitled-8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E284D918E65E9F0029AA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E284E718E65E9F0029AA64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E284B318E65E9E0029AA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D7E63218E74DBD0017A153 /* STTwitterAPI.m in Sources */,
+				F9D7E64018E74DBD0017A153 /* JSONSyntaxHighlight.m in Sources */,
+				F9D7E62C18E74DBD0017A153 /* NSError+STTwitter.m in Sources */,
+				F9E284D418E65E9F0029AA64 /* ViewController.m in Sources */,
+				F9E284CB18E65E9F0029AA64 /* AppDelegate.m in Sources */,
+				F9D7E63418E74DBD0017A153 /* STTwitterAppOnly.m in Sources */,
+				F9D7E62A18E74DBD0017A153 /* NSDateFormatter+STTwitter.m in Sources */,
+				F9D7E63818E74DBD0017A153 /* STTwitterOAuth.m in Sources */,
+				F9E284C718E65E9E0029AA64 /* main.m in Sources */,
+				F9D7E64218E74DBD0017A153 /* STHTTPRequest.m in Sources */,
+				F9D7E63018E74DBD0017A153 /* STHTTPRequest+STTwitter.m in Sources */,
+				F9F05E0B18E66B58008149D2 /* Eventsview.m in Sources */,
+				F9F05E0E18E66B6C008149D2 /* ContactView.m in Sources */,
+				F97FFF9818E6684F00E22161 /* View2.m in Sources */,
+				F9F05E1118E66B81008149D2 /* Aboutusview.m in Sources */,
+				F9D7E63E18E74DBD0017A153 /* BAVPlistNode.m in Sources */,
+				F9D7E63618E74DBD0017A153 /* STTwitterHTML.m in Sources */,
+				F9F05E0818E66AC8008149D2 /* Accountview.m in Sources */,
+				F9D7E63A18E74DBD0017A153 /* STTwitterOS.m in Sources */,
+				F9D7E64818E76A280017A153 /* StartView.m in Sources */,
+				F9D7E63C18E74DBD0017A153 /* STTwitterOSRequest.m in Sources */,
+				F9D7E62E18E74DBD0017A153 /* NSString+STTwitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E284D718E65E9F0029AA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D7E63F18E74DBD0017A153 /* BAVPlistNode.m in Sources */,
+				F9D7E62F18E74DBD0017A153 /* NSString+STTwitter.m in Sources */,
+				F9D7E64318E74DBD0017A153 /* STHTTPRequest.m in Sources */,
+				F9D7E63718E74DBD0017A153 /* STTwitterHTML.m in Sources */,
+				F9D7E63318E74DBD0017A153 /* STTwitterAPI.m in Sources */,
+				F9D7E63918E74DBD0017A153 /* STTwitterOAuth.m in Sources */,
+				F9D7E62D18E74DBD0017A153 /* NSError+STTwitter.m in Sources */,
+				F9D7E62B18E74DBD0017A153 /* NSDateFormatter+STTwitter.m in Sources */,
+				F9D7E63518E74DBD0017A153 /* STTwitterAppOnly.m in Sources */,
+				F9E284E918E65E9F0029AA64 /* AppliTests.m in Sources */,
+				F9D7E63B18E74DBD0017A153 /* STTwitterOS.m in Sources */,
+				F9D7E63118E74DBD0017A153 /* STHTTPRequest+STTwitter.m in Sources */,
+				F9D7E63D18E74DBD0017A153 /* STTwitterOSRequest.m in Sources */,
+				F9D7E64118E74DBD0017A153 /* JSONSyntaxHighlight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E284E118E65E9F0029AA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E284B618E65E9E0029AA64 /* Clark Hall Pub */;
+			targetProxy = F9E284E018E65E9F0029AA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9E284C318E65E9E0029AA64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E284C418E65E9E0029AA64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9E284CC18E65E9F0029AA64 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E284CD18E65E9F0029AA64 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F9E284CF18E65E9F0029AA64 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E284D018E65E9F0029AA64 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F9E284E518E65E9F0029AA64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E284E618E65E9F0029AA64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9E284EA18E65E9F0029AA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9E284EB18E65E9F0029AA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9E284ED18E65E9F0029AA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appli/Clark Hall Pub-Prefix.pch";
+				INFOPLIST_FILE = "Appli/Clark Hall Pub-Info.plist";
+				PRODUCT_NAME = "Clark Hall Pub";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9E284EE18E65E9F0029AA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appli/Clark Hall Pub-Prefix.pch";
+				INFOPLIST_FILE = "Appli/Clark Hall Pub-Info.plist";
+				PRODUCT_NAME = "Clark Hall Pub";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9E284F018E65E9F0029AA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Appli.app/Appli";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appli/Appli-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppliTests/Clark Hall PubTests-Info.plist";
+				PRODUCT_NAME = "Clark Hall PubTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F9E284F118E65E9F0029AA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Appli.app/Appli";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Appli/Appli-Prefix.pch";
+				INFOPLIST_FILE = "AppliTests/Clark Hall PubTests-Info.plist";
+				PRODUCT_NAME = "Clark Hall PubTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E284B218E65E9E0029AA64 /* Build configuration list for PBXProject "Clark Hall Pub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E284EA18E65E9F0029AA64 /* Debug */,
+				F9E284EB18E65E9F0029AA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E284EC18E65E9F0029AA64 /* Build configuration list for PBXNativeTarget "Clark Hall Pub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E284ED18E65E9F0029AA64 /* Debug */,
+				F9E284EE18E65E9F0029AA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E284EF18E65E9F0029AA64 /* Build configuration list for PBXNativeTarget "Clark Hall PubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E284F018E65E9F0029AA64 /* Debug */,
+				F9E284F118E65E9F0029AA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E284AF18E65E9E0029AA64 /* Project object */;
+}
